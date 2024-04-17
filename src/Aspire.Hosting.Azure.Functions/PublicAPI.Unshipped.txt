@@ -1,0 +1,12 @@
+#nullable enable
+Aspire.Hosting.Azure.AzureFunctionsResource
+Aspire.Hosting.Azure.AzureFunctionsResource.AzureFunctionsResource(Aspire.Hosting.ApplicationModel.FunctionsResource! innerResource, System.Action<Aspire.Hosting.ResourceModuleConstruct!>! configureConstruct) -> void
+Aspire.Hosting.Azure.AzureFunctionsResource.ConnectionString.get -> Aspire.Hosting.Azure.BicepSecretOutputReference!
+Aspire.Hosting.Azure.AzureFunctionsResource.ConnectionStringExpression.get -> Aspire.Hosting.ApplicationModel.ReferenceExpression!
+Aspire.Hosting.AzureFunctionsExtensions
+override Aspire.Hosting.Azure.AzureFunctionsResource.Annotations.get -> Aspire.Hosting.ApplicationModel.ResourceAnnotationCollection!
+override Aspire.Hosting.Azure.AzureFunctionsResource.Name.get -> string!
+static Aspire.Hosting.AzureFunctionsExtensions.AsAzureFunctions(this Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.FunctionsResource!>! builder) -> Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.FunctionsResource!>!
+static Aspire.Hosting.AzureFunctionsExtensions.AsAzureFunctions(this Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.FunctionsResource!>! builder, System.Action<Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.Azure.AzureFunctionsResource!>!, Aspire.Hosting.ResourceModuleConstruct!, Azure.Provisioning.Functions.FunctionsCache!>? configureResource) -> Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.FunctionsResource!>!
+static Aspire.Hosting.AzureFunctionsExtensions.PublishAsAzureFunctions(this Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.FunctionsResource!>! builder) -> Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.FunctionsResource!>!
+static Aspire.Hosting.AzureFunctionsExtensions.PublishAsAzureFunctions(this Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.FunctionsResource!>! builder, System.Action<Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.Azure.AzureFunctionsResource!>!, Aspire.Hosting.ResourceModuleConstruct!, Azure.Provisioning.Functions.FunctionsCache!>? configureResource) -> Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.FunctionsResource!>!

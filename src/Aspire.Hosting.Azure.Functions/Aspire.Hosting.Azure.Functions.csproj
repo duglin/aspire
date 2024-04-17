@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(NetCurrent)</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <PackageTags>aspire hosting azure</PackageTags>
+    <Description>Azure Functions resource types for .NET Aspire.</Description>
+    <PackageIconFullPath>$(SharedDir)AzureFunctions_256x.png</PackageIconFullPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspire.Hosting.Azure\Aspire.Hosting.Azure.csproj" />
+	<!--
+    <ProjectReference Include="..\Aspire.Hosting.Functions\Aspire.Hosting.Functions.csproj" />
+	-->
+
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.0.12" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.3.0" OutputItemType="Analyzer" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Aspire.Hosting.Tests" />
+  </ItemGroup>
+
+</Project>
